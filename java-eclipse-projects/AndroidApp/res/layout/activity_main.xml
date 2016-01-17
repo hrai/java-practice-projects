@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".StartingPoint" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/hello_world"
+        tools:context=".StartingPoint" />
+
+    <Button
+        android:id="@+id/bAdd"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="Add"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/tvDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/test"
+        android:textSize="40dp" />
+
+    <Button
+        android:id="@+id/bSub"
+        android:layout_width="250dp"
+        android:layout_height="100dp"
+        android:layout_above="@+id/textView1"
+        android:layout_alignLeft="@+id/bAdd"
+        android:layout_marginBottom="22dp"
+        android:text="Sub"
+        android:textSize="20dp" />
+
+</RelativeLayout>

@@ -1,0 +1,66 @@
+body {
+	margin: 0px;
+	padding: 16px 0;
+	font: 13px "Lucida Sans Unicode", "Lucida Sans", "Lucida Grande", verdana, arial, helvetica;
+	color: #282828;
+	text-align: center;
+	background-color: #2EFE9A;
+}
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+	text-align:center;
+}
+
+h3 {
+	font size: 20px;
+	padding:10px;
+}
+
+#content {
+	padding:10px;
+	padding-bottom:40px;   /* Height of the footer element */
+}
+
+#footer {
+	width:100%;
+	height:40px;
+	position:absolute;
+	bottom:0;
+	left:0;
+}
+
+img {
+	border-style: none;
+}
+
+a {
+	color: #660099;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #1471B1;
+}
+
+h3{
+	font-size:17px;
+	color: #003366;
+}
+
+tr.heading td {
+	background-image: url(background.jpg);
+}
+
+tr.body td {
+	background-image: url(gradient.jpg);
+}
+
+td.heading {
+	background-image: url(background.jpg);
+}
+
+td.body {
+	background-image: url(gradient.jpg);
+}
